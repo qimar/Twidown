@@ -1,0 +1,75 @@
+name: videodownloader
+description: "Twitter and X media downloader utility for Android built with Flutter."
+publish_to: "none"
+version: 1.0.1+4
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  device_info_plus: ^12.3.0
+  dio: ^5.9.0
+  event_bus: ^2.0.1
+  flutter:
+    sdk: flutter
+  flutter_localization: ^0.3.3
+  fluttertoast: ^9.0.0
+  get_it: ^9.1.1
+  google_mobile_ads: ^5.3.1
+  html: ^0.15.6
+  http: ^1.6.0
+  icons_launcher: ^3.0.3
+  in_app_review: ^2.0.11
+  intl: any
+  listen_sharing_intent: ^1.9.2
+  media_store_plus: ^0.1.3
+  objectbox: ^5.0.2
+  objectbox_flutter_libs: ^5.0.2
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.1
+  provider: ^6.1.5+1
+  share_plus: ^12.0.1
+  shared_preferences: ^2.5.3
+  sizer: ^3.1.3
+  url_launcher: ^6.3.2
+  video_player: ^2.10.1
+  webview_flutter: ^4.13.0
+  flutter_native_splash: ^2.4.7
+
+dev_dependencies:
+  build_runner: ^2.10.4
+  change_app_package_name: ^1.5.0
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  objectbox_generator: 5.0.2
+
+icons_launcher:
+  image_path: "assets/icon/icon.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+flutter_native_splash:
+  color: "#0072FF"
+  image: "assets/icon/icon.png"
+  android: true
+  ios: true
+
+  android_12:
+    image: "assets/icon/splash.png"
+    icon_background_color: "#0072FF"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icon/
+    - assets/ad/
+    - assets/flags/
+    - assets/lottie/

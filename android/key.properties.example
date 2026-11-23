@@ -1,0 +1,4 @@
+keyAlias=upload
+keyPassword=YOUR_KEY_PASSWORD
+storeFile=app_signing/upload-keystore.jks
+storePassword=YOUR_STORE_PASSWORD
